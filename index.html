@@ -1,8 +1,105 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
-  <body>
-  Hi, I still learning.
-  </body>
+    <head> 
+        <meta name="author" content="">
+        <meta name="description" content="">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="icon" href="demo_icon.ico" type="image/x-icon">
+             <link rel="shortcut icon" href="http://www.example.com/favicon.ico" type="image/x-icon" /> 
+              <link rel="icon" href="demo_icon.gif" type="image/gif"> -->
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                width: 100%;
+                height: 100%;
+                width: 100vw;
+                height: 100vh;
+                font-size: 16px;
+                color: #F000F0;
+                font-family: sans-serif, cursive, monospace;
+                letter-spacing: 2px;
+            }
+            .meni {
+                position: relative;
+                background-color: #F0F0F0;
+                height: 15vh;
+            }
+            .container {
+                position: absolute;
+                bottom: 0px;
+                background-color: #e0e0e0;
+                height: auto;
+                width:auto;
+            }
+            .tab {
+                background-color: #00A000;
+                height: auto;
+                width: auto;
+                padding: 10px;
+                font-size: 150%;
+                display: inline-block;
+                margin-left: 10vw;
+            }
+            .ulaz {
+                background-color: #0000FF;
+                width: 10vw;
+                height: 85vh;
+                margin:0px;
+                float: left;
+            }
+            .centar {
+                background-color: #FFFFFF;
+                width: 80vw;
+                height: 85vh;
+                float: left;
+            }
+            .text {
+                margin: 1vw;
+                color: #000000;
+                
+            }
+        </style>
+        <script>
+            
+        </script>
+    </head>
+    <body>
+        <div class="meni">
+        <div class="container">
+            <div class="tab">
+                G
+            </div>
+            <div class="tab">
+                H
+            </div>
+            <div class="tab">
+                I
+            </div>
+        </div>
+         </div>
+        <div class="ulaz">
+            a
+        </div>
+        <div class="centar">
+            <div class="text">Hi, and welcome.<br><br>
+            All what you need know for now is that "body" element is "display: static" by default.<br>
+            Every element in which you want to have another element. Must be "display: relative".<br>
+            If you want second element to be relative on parent ("display: relative").<br>
+            That second element must have some container for example "div" element which will be "display: absolute",<br>
+            and in that container you actualy put second element with margins and other stuff.<br>
+            Element that have "display" property, margin will not work.<br>
+            So you need to add some position "left:" or/and "right" or/and "top:" or/and "bottom" to pozicionate <br>
+            container element and if you wish add some "padding" to container, but the best will be to<br>
+            set "height: auto;" and "width:auto;" to auto. Look to my code you will see.<br>
+            <br>
+            That is all for now.<br>
+            Happy coding! :)
+            </div>
+        </div>
+        <div class="ulaz">
+            c
+        </div>
+    </body>
 </html>
